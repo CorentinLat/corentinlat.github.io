@@ -1,5 +1,7 @@
 <template>
-    <h1>Teachings</h1>
+    <article class="section">
+        <h1>Publications</h1>
+    </article>
 </template>
 
 <script setup lang="ts">
