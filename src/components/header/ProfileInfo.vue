@@ -18,7 +18,7 @@
                         <VIcon name="bi-github" scale="2" />
                     </a>
                     <a
-                        href="https://scholar.google.com/citations?user=9WmHiqQAAAAJ"
+                        href="https://www.linkedin.com/in/corentin-latappy"
                         target="_blank"
                     >
                         <VIcon name="bi-linkedin" scale="2" />
