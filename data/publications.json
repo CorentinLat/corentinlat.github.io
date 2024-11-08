@@ -1,0 +1,22 @@
+[
+  {
+    "title": "What the Fix? A Study of ASAT Rules Documentation",
+    "authors": "C. Latappy, T. Degueule, J-R. Falleri, R. Robbes, X. Blanc, C. Teyton",
+    "conference": "International Conference on Program Comprehension (ICPC)",
+    "year": "2024"
+  },
+  {
+    "title": "MLinter: Learning Coding Practices from Examples—Dream or Reality?",
+    "authors": "C. Latappy, Q. Perez, T. Degueule, J-R. Falleri, C. Urtado, S. Vauttier, X. Blanc, C. Teyton",
+    "conference": "International Conference on Software Analysis, Evolution and Reengineering (SANER)",
+    "year": "2023"
+  },
+  {
+    "title": "Les pratiques de code: de la documentation à la détection",
+    "authors": "Corentin Latappy",
+    "conference": "PhD Thesis",
+    "year": "2024",
+    "other": "Advisors: J-R. Falleri, T. Degueule",
+    "type": "thesis"
+  }
+]
