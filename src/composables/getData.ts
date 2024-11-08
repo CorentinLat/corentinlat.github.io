@@ -1,7 +1,9 @@
 import { ref } from 'vue';
 
-const useGetData = (dataType: 'publications') => () => {
-    const data = ref([]);
+import type { Publication } from '@/domain/Publication';
+
+const useGetData = <T>(dataType: 'publications') => () => {
+    const data = ref<T[]>([]);
 
     const getData = async () => {
         const response = await fetch(`/data/${dataType}.json?t=${Date.now()}`);
@@ -11,4 +13,4 @@ const useGetData = (dataType: 'publications') => () => {
     return { data, getData };
 };
 
-export const useGetPublicationsData = useGetData('publications');
+export const useGetPublicationsData = useGetData<Publication>('publications');

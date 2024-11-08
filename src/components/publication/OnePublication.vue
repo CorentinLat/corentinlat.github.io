@@ -17,14 +17,9 @@
 </template>
 
 <script setup lang="ts">
-defineProps<{
-    title: string,
-    authors: string,
-    conference: string,
-    year: string,
-    other?: string,
-    type?: 'article' | 'book' | 'journal' | 'thesis',
-}>();
+import type { Publication } from '@/domain/Publication';
+
+defineProps<Publication>();
 </script>
 
 <style scoped lang="scss">
