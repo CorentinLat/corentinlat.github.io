@@ -19,12 +19,14 @@ import MyTeachings from '@/components/main/MyTeachings.vue';
 
 const options = ref({
     anchors: ['bio', 'publications', 'teaching', 'personalProjects'],
-    menu: '#myMenu'
+    menu: '#myMenu',
+    normalScrollElements: '.scrollable-element',
+    scrollOverflowMacStyle: true,
 });
 </script>
 
 <style lang="scss" scoped>
 .section {
-    padding-top: $headerHeight;
+    padding-top: calc($headerHeight + $headerPadding * 2);
 }
 </style>

@@ -80,7 +80,7 @@
         justify-content: flex-end;
 
         .content {
-            $profilePictureMarginY: 20px;
+            $profilePictureMarginY: 10px;
             $contentGap: 10px;
             $networksHeight: 38px;
 

@@ -19,7 +19,7 @@ header {
     top: 0;
     height: 25vh;
     width: 100%;
-    padding: 15px 0;
+    padding: $headerPadding 0;
 
     display: flex;
     flex-direction: column;
