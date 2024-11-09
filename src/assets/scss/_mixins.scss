@@ -1,0 +1,37 @@
+@use 'variables' as v;
+
+@mixin headerStyle() {
+  @media only screen and (min-width: 1024px) {
+    height: v.$headerHeightFull;
+    width: calc(100% - #{v.$headerPaddingFull} * 2);
+    padding: v.$headerPaddingFull;
+    gap: v.$headerGapFull;
+  }
+
+  @media only screen and (max-width: 1024px) {
+    height: v.$headerHeightMobile;
+    width: calc(100% - #{v.$headerPaddingMobile} * 2);
+    padding: v.$headerPaddingMobile;
+    gap: v.$headerGapMobile;
+  }
+}
+
+@mixin pageMainHeight() {
+  @media only screen and (min-width: 1024px) {
+    height: calc(100% - #{v.$headerHeightFull});
+  }
+
+  @media only screen and (max-width: 1024px) {
+    height: calc(100% - #{v.$headerHeightMobile});
+  }
+}
+
+@mixin fullPageSectionPaddingTop() {
+  @media only screen and (min-width: 1024px) {
+    padding-top: calc(#{v.$headerHeightFull} + #{v.$headerPaddingFull} * 2);
+  }
+
+  @media only screen and (max-width: 1024px) {
+    padding-top: calc(#{v.$headerHeightMobile} + #{v.$headerPaddingMobile} * 2);
+  }
+}

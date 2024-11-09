@@ -45,7 +45,7 @@ defineProps<{ title?: string }>();
     }
 }
 
-@media (max-width: 1024px) {
+@media only screen and (max-width: 1024px) {
     .full-screen-section-component {
         margin: 10px;
 

@@ -26,7 +26,11 @@ const options = ref({
 </script>
 
 <style lang="scss" scoped>
-.section {
-    padding-top: calc($headerHeight + $headerPadding * 2);
+main {
+    @include pageMainHeight;
+
+    .section {
+        @include fullPageSectionPaddingTop;
+    }
 }
 </style>
