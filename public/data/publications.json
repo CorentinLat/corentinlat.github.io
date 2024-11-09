@@ -3,20 +3,29 @@
     "title": "What the Fix? A Study of ASAT Rules Documentation",
     "authors": "C. Latappy, T. Degueule, J-R. Falleri, R. Robbes, X. Blanc, C. Teyton",
     "conference": "International Conference on Program Comprehension (ICPC)",
-    "year": "2024"
+    "year": "2024",
+    "preprint": "https://hal.science/hal-04450208v1/document",
+    "zenodo": "https://zenodo.org/records/10522473",
+    "companion": "https://icpc2024-asats.github.io",
+    "presentation": "icpc24.pdf"
   },
   {
     "title": "MLinter: Learning Coding Practices from Examples—Dream or Reality?",
     "authors": "C. Latappy, Q. Perez, T. Degueule, J-R. Falleri, C. Urtado, S. Vauttier, X. Blanc, C. Teyton",
     "conference": "International Conference on Software Analysis, Evolution and Reengineering (SANER)",
-    "year": "2023"
+    "year": "2023",
+    "preprint": "https://hal.science/hal-03951403/document",
+    "zenodo": "https://zenodo.org/records/7341456",
+    "presentation": "saner23.pdf"
   },
   {
     "title": "Les pratiques de code: de la documentation à la détection",
     "authors": "Corentin Latappy",
     "conference": "PhD Thesis",
     "year": "2024",
-    "other": "Advisors: J-R. Falleri, T. Degueule",
-    "type": "thesis"
+    "other": "Advisors: Jean-Rémy Falleri, Thomas Degueule",
+    "type": "thesis",
+    "preprint": "https://theses.hal.science/tel-04680977v1/document",
+    "presentation": "thesis24.pdf"
   }
 ]

@@ -5,4 +5,8 @@ export type Publication = {
     year: string;
     other?: string;
     type?: 'article' | 'book' | 'journal' | 'thesis';
+    preprint?: string;
+    zenodo?: string;
+    companion?: string;
+    presentation?: string;
 };
