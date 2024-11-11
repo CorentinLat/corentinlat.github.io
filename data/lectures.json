@@ -1,0 +1,21 @@
+[
+  {
+    "title": "Web Development Languages and Techniques",
+    "date": "Since 2021",
+    "school": "Enseirb-Matmeca",
+    "lang": "French",
+    "level": "2nd year, equivalent Master 1",
+    "resources": ["https://github.com/CorentinLat/Dev-Web-Enseirb-2A"]
+  },
+  {
+    "title": "Project Management",
+    "date": "Since 2024",
+    "school": "University of Bordeaux",
+    "lang": "French",
+    "level": "Master 2",
+    "resources": [
+      "https://github.com/xblanc33/QualiteDev",
+      "https://github.com/xblanc33/cdp-td"
+    ]
+  }
+]
