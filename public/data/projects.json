@@ -1,0 +1,36 @@
+[
+  {
+    "title": "Ref'Site",
+    "description": "The Ref'Site application is a set of tools designed to support rugby referees in their various missions.\nIt includes help with writing reports, support for club presentations and exercises on previous examinations.\nOnce logged in, you have access to personalized information, such as upcoming events.",
+    "technologies": [
+      "Typescript",
+      "Vue.js",
+      "Firebase"
+    ],
+    "links": [
+      {
+        "name": "App",
+        "url": "https://ref-site.fr"
+      }
+    ]
+  },
+  {
+    "title": "Ref'Back",
+    "description": "The Ref'Back application is designed to help rugby referees provide match feedback. It is available to all referees who wish to work on their matches.\nYou can import your video, annotate your decisions, create clips and browse the associated statistics. You can also export your feedback in PDF format for sharing. All your analyses are saved, so you can retrieve them later if you need to review an action.\nThe application is available for Windows, Mac and Linux distributions.",
+    "technologies": [
+      "Typescript",
+      "Angular",
+      "Electron"
+    ],
+    "links": [
+      {
+        "name": "Documentation",
+        "url": "https://corentin-1.gitbook.io/ref-back"
+      },
+      {
+        "name": "GitHub",
+        "url": "https://github.com/CorentinLat/ref-back"
+      }
+    ]
+  }
+]

@@ -19,9 +19,9 @@
                     <VIcon class="small-screen" name="fa-chalkboard-teacher" scale="1.2" />
                 </a>
             </li>
-            <li data-menuanchor="personalProjects">
-                <a href="#personalProjects">
-                    <span class="big-screen">Personal Projects</span>
+            <li data-menuanchor="projects">
+                <a href="#projects">
+                    <span class="big-screen">Projects</span>
                     <VIcon class="small-screen" name="fa-laptop-code" scale="1.2" />
                 </a>
             </li>

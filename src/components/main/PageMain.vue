@@ -4,7 +4,7 @@
             <MyBio />
             <MyPublications />
             <MyTeachings />
-            <MyPersonalProjects />
+            <MyProjects />
         </full-page>
     </main>
 </template>
@@ -13,12 +13,12 @@
 import { ref } from 'vue';
 
 import MyBio from '@/components/main/MyBio.vue';
-import MyPersonalProjects from '@/components/main/MyPersonalProjects.vue';
+import MyProjects from '@/components/main/MyProjects.vue';
 import MyPublications from '@/components/main/MyPublications.vue';
 import MyTeachings from '@/components/main/MyTeachings.vue';
 
 const options = ref({
-    anchors: ['bio', 'publications', 'teaching', 'personalProjects'],
+    anchors: ['bio', 'publications', 'teaching', 'projects'],
     menu: '#myMenu',
     normalScrollElements: '.scrollable-element',
     scrollOverflowMacStyle: true,
