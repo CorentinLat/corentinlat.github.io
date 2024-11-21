@@ -18,6 +18,7 @@ import MyPublications from '@/components/main/MyPublications.vue';
 import MyTeachings from '@/components/main/MyTeachings.vue';
 
 const options = ref({
+    licenseKey: 'zu1O!4A!t9',
     anchors: ['bio', 'publications', 'teaching', 'projects'],
     menu: '#myMenu',
     normalScrollElements: '.scrollable-element',
