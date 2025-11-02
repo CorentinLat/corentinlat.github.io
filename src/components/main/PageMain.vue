@@ -19,8 +19,6 @@ import MyTeachings from '@/components/main/MyTeachings.vue';
 
 <style lang="scss" scoped>
 main {
-    @include pageMainHeight;
-
     overflow: auto;
 }
 
