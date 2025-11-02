@@ -8,6 +8,7 @@ import {
     AiGoogleScholarSquare,
     BiGithub,
     BiLinkedin,
+    FaAward,
     FaBookReader,
     FaChalkboardTeacher,
     FaLaptopCode,
@@ -25,13 +26,11 @@ import {
     MdSchoolRound,
 } from 'oh-vue-icons/icons';
 
-import 'vue-fullpage.js/dist/style.css';
-import VueFullPage from 'vue-fullpage.js';
-
 addIcons(
     AiGoogleScholarSquare,
     BiGithub,
     BiLinkedin,
+    FaAward,
     FaBookReader,
     FaChalkboardTeacher,
     FaLaptopCode,
@@ -51,5 +50,4 @@ addIcons(
 
 const app = createApp(App);
 app.component('VIcon', OhVueIcon);
-app.use(VueFullPage);
 app.mount('#app');

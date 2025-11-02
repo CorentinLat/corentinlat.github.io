@@ -1,37 +1,37 @@
 <template>
     <main>
-        <full-page :options="options">
-            <MyBio />
-            <MyPublications />
-            <MyTeachings />
-            <MyProjects />
-        </full-page>
+        <MyBio />
+        <hr>
+        <MyPublications />
+        <hr>
+        <MyTeachings />
+        <hr>
+        <MyProjects />
     </main>
 </template>
 
 <script lang="ts" setup>
-import { ref } from 'vue';
-
 import MyBio from '@/components/main/MyBio.vue';
 import MyProjects from '@/components/main/MyProjects.vue';
 import MyPublications from '@/components/main/MyPublications.vue';
 import MyTeachings from '@/components/main/MyTeachings.vue';
-
-const options = ref({
-    licenseKey: 'zu1O!4A!t9',
-    anchors: ['bio', 'publications', 'teaching', 'projects'],
-    menu: '#myMenu',
-    normalScrollElements: '.scrollable-element',
-    scrollOverflowMacStyle: true,
-});
 </script>
 
 <style lang="scss" scoped>
 main {
     @include pageMainHeight;
 
-    .section {
-        @include fullPageSectionPaddingTop;
+    overflow: auto;
+}
+
+hr {
+    border-width: 0.5px;
+    margin-left: 10%;
+    margin-right: 10%;
+
+    @media only screen and (max-width: 1024px) {
+        margin-left: 20px;
+        margin-right: 20px;
     }
 }
 </style>

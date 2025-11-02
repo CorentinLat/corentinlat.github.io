@@ -3,7 +3,7 @@
         <section class="profile-info-full">
             <section class="left-container">
                 <section class="content">
-                    <img class="profile-picture" src="/img/me.jpeg" alt="Profile picture" />
+                    <img class="profile-picture" src="/img/me.jpg" alt="Profile picture" />
 
                     <article class="networks">
                         <a
@@ -32,8 +32,8 @@
                 <article class="content">
                     <h1>Corentin Latappy</h1>
                     <p class="position">
-                        Post-Doctoral Researcher @
-                        <a href="https://se.labri.fr" target="_blank">Progress</a>
+                        Research Engineer @
+                        <a href="https://www.rhoban.com/" target="_blank">Rhoban</a>
                         in
                         <a href="https://www.labri.fr" target="_blank">LaBRI</a>
                     </p>
@@ -53,7 +53,7 @@
 
         <section class="profile-info-mobile">
             <section class="profile-info">
-                <img class="profile-picture" src="/img/me.jpeg" alt="Profile picture" />
+                <img class="profile-picture" src="/img/me.jpg" alt="Profile picture" />
 
                 <section class="info">
                     <article class="name-networks">
@@ -87,8 +87,8 @@
                     </article>
 
                     <p>
-                        Postdoc @
-                        <a href="https://se.labri.fr" target="_blank">Progress</a>
+                        Engineer @
+                        <a href="https://www.rhoban.com/" target="_blank">Rhoban</a>
                         in
                         <a href="https://www.labri.fr" target="_blank">LaBRI</a>
                     </p>

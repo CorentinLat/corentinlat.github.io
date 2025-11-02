@@ -1,4 +1,16 @@
-body { font-family: "Exo", serif; }
+body {
+    font-family: "Exo", serif;
+
+    display: flex;
+    height: 100vh;
+    margin: 0;
+    overflow: hidden;
+}
+
+#app {
+    display: flex;
+    flex-direction: column;
+}
 
 h1, h2, h3, h4, h5, h6 {
     font-family: "Exo 2", serif;

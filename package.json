@@ -14,8 +14,7 @@
   },
   "dependencies": {
     "oh-vue-icons": "^1.0.0-rc3",
-    "vue": "^3.5.12",
-    "vue-fullpage.js": "^0.2.20"
+    "vue": "^3.5.12"
   },
   "devDependencies": {
     "@tsconfig/node20": "^20.1.4",

@@ -1,13 +1,13 @@
 <template>
-    <FullScreenSection title="Teaching">
+    <ContentSection anchor="teaching" title="Teaching">
         <OneLecture v-for="lecture in lectures" :key="lecture.title" v-bind="lecture" />
-    </FullScreenSection>
+    </ContentSection>
 </template>
 
 <script setup lang="ts">
 import { onMounted } from 'vue';
 
-import FullScreenSection from '@/components/layout/FullScreenSection.vue';
+import ContentSection from '@/components/layout/ContentSection.vue';
 import OneLecture from '@/components/teaching/OneLecture.vue';
 
 import { useGetLecturesData } from '@/composables/getData';

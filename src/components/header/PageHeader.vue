@@ -12,9 +12,6 @@ import NavigationMenu from '@/components/header/NavigationMenu.vue';
 
 <style lang="scss" scoped>
 header {
-    position: fixed;
-    top: 0;
-
     display: flex;
     flex-direction: column;
     align-items: center;

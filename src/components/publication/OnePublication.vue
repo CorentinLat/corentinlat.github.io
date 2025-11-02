@@ -8,7 +8,7 @@
         </article>
 
         <section class="publication">
-            <h3>{{ title }}</h3>
+            <h3>{{ title }} <VIcon v-if="award" name="fa-award" /></h3>
             <h4>{{ authors }}</h4>
             <p>
                 In <i>{{ conference }}</i
@@ -20,6 +20,7 @@
                 <a v-if="preprint" class="resource" :href="preprint" target="_blank">Preprint</a>
                 <a v-if="zenodo" class="resource" :href="zenodo" target="_blank">Zenodo</a>
                 <a v-if="companion" class="resource" :href="companion" target="_blank">Companion App</a>
+                <a v-if="tool" class="resource" :href="tool" target="_blank">Tool</a>
                 <a v-if="presentation" class="resource" :href="`/res/presentation/${presentation}`" target="_blank">Slides</a>
             </article>
         </section>
@@ -39,8 +40,9 @@ defineProps<Publication>();
 
     .type {
         display: flex;
+        flex-direction: column;
         align-items: center;
-        height: 29px;
+        margin-top: 2px;
     }
 
     .publication {

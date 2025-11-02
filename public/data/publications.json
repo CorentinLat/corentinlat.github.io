@@ -1,5 +1,16 @@
 [
   {
+    "title": "Roseau: Fast, Accurate, Source-based API Breaking Change Analysis in Java",
+    "authors": "C. Latappy, T. Degueule, J-R. Falleri, R. Robbes, L. Ochoa",
+    "conference": "International Conference on Software Maintenance and Evolution (ICSME)",
+    "year": "2025",
+    "preprint": "https://hal.science/hal-05176866/document",
+    "zenodo": "https://zenodo.org/records/15536418",
+    "presentation": "icsme25.pdf",
+    "tool": "https://github.com/alien-tools/roseau",
+    "award": true
+  },
+  {
     "title": "What the Fix? A Study of ASAT Rules Documentation",
     "authors": "C. Latappy, T. Degueule, J-R. Falleri, R. Robbes, X. Blanc, C. Teyton",
     "conference": "International Conference on Program Comprehension (ICPC)",

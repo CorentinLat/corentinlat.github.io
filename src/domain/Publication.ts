@@ -8,5 +8,7 @@ export type Publication = {
     preprint?: string;
     zenodo?: string;
     companion?: string;
+    tool?: string;
     presentation?: string;
+    award?: boolean;
 };

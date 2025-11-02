@@ -1,17 +1,15 @@
 <template>
-    <FullScreenSection title="Projects">
-        <h2>Personal Projects</h2>
-
+    <ContentSection anchor="projects" title="Projects">
         <section class="projects">
             <OneProject v-for="project in projects" :key="project.title" v-bind="project" />
         </section>
-    </FullScreenSection>
+    </ContentSection>
 </template>
 
 <script setup lang="ts">
 import { onMounted } from 'vue';
 
-import FullScreenSection from '@/components/layout/FullScreenSection.vue';
+import ContentSection from '@/components/layout/ContentSection.vue';
 import OneProject from '@/components/project/OneProject.vue';
 
 import { useGetProjectsData } from '@/composables/getData';
